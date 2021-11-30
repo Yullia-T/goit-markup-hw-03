@@ -173,10 +173,9 @@ img {
 }
 
 /* Преимущества */
-
 .section {
   padding-top: 94px;
-  /* padding-bottom: 94px; */
+  padding-bottom: 94px;
 }
 
 .title-none {
@@ -208,6 +207,9 @@ img {
   margin-left: -30px;
 }
 
+.section-bottom {
+  margin-bottom: 94px;
+}
 .list-card > .item-card {
   /* outline: 1px solid tomato; */
 
@@ -218,8 +220,9 @@ img {
 
 .features-title {
   font-weight: 700px;
-  line-height: 16px;
+  font-size: 14px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .features-title-text {
@@ -228,7 +231,7 @@ img {
 }
 
 .title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -242,15 +245,11 @@ img {
   background-color: #f5f4fa;
 }
 .workers {
-  margin-top: 30px;
+  /* margin-top: 10px; */
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-}
-
-.section-worker {
-  padding-bottom: 94px;
 }
 
 .card-workers {
@@ -276,7 +275,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .positions {
-  margin-top: 30px;
+  margin-top: 10px;
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.19;
@@ -293,6 +292,8 @@ img {
   padding-bottom: 60px;
 }
 
+.logo-footer {
+}
 .logo-web-footer {
   color: var(--accent-color);
   font-family: Raleway;
@@ -307,6 +308,7 @@ img {
 }
 
 .info-footer-link {
+  display: inline-block;
   margin-top: 9px;
 }
 
@@ -339,19 +341,14 @@ img {
   line-height: 1.71;
 }
 
-.tel {
-  margin-bottom: 9px;
-}
-
 /* Портфолио */
 /* Готовые работы */
 
 .filter {
   display: flex;
-  margin-top: 94px;
-  margin-bottom: 34px;
   text-align: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .button {
