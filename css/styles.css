@@ -208,7 +208,7 @@ img {
 }
 
 .section-bottom {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .list-card > .item-card {
   /* outline: 1px solid tomato; */
